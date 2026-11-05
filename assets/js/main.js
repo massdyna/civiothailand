@@ -171,7 +171,7 @@
     const values = new FormData(civioForm);
     const subject = encodeURIComponent("CIVIO Contact: " + values.get("subject"));
     const body = encodeURIComponent("ชื่อ-นามสกุล: " + values.get("name") + "\nเบอร์โทรศัพท์: " + values.get("phone") + "\nอีเมล: " + values.get("email") + "\nเรื่องที่ต้องการติดต่อ: " + values.get("subject"));
-    window.location.href = "mailto:civioteam@massdyna.com?subject=" + subject + "&body=" + body;
+    window.location.href = "mailto:civioteam@outlook.com?subject=" + subject + "&body=" + body;
   });
 
   // Local fallbacks keep the layout intact when an external image is unavailable.
